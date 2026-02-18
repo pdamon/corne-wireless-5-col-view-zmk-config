@@ -10,8 +10,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    chosen { zmk,matrix-transform = &five_column_transform; };
-
     behaviors {
         hrm_right: hrm_right {
             compatible = "zmk,behavior-hold-tap";
